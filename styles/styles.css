@@ -1,10 +1,27 @@
 h1 {
   color: white;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
+}
+
+.hero {
+  background: #1b5054;
+  padding: 200px 0 880px;
+}
+
+.main-logo {
+  width: 455px;
+  height: 463px;
+  margin-top: 40px;
+}
+
+.homepage-text {
+  padding-left: 450px;
+  margin-top: -431px;
+  padding-right: 150px;
 }
