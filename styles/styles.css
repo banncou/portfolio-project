@@ -11,17 +11,35 @@ p {
 
 .hero {
   background: #1b5054;
-  padding: 200px 0 880px;
+  padding: 200px 0 180px;
 }
 
 .main-logo {
-  width: 455px;
-  height: 463px;
-  margin-top: 40px;
+  margin-top: -50px;
+  padding-left: 50px;
 }
 
 .homepage-text {
-  padding-left: 450px;
-  margin-top: -431px;
+  padding-right: 250px;
+}
+
+.btn-branding {
+  background-color: white;
+  background: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 20px;
+  position: relative;
   padding-right: 150px;
+  margin-left: 515px;
+  margin-top: -350px;
+}
+
+.btn-branding:hover {
+  border: 2px solid white;
+  background-color: #1b5054;
+  color: white;
 }
