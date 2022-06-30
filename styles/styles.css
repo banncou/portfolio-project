@@ -11,53 +11,53 @@ p {
 
 .hero {
   background: #1b5054;
-  padding: 200px 0 180px;
-}
-
-.main-logo {
-  margin-top: -50px;
-  padding-left: 50px;
-}
-
-.homepage-text {
-  padding-right: 250px;
+  padding: 200px 15px 180px;
 }
 
 .btn-branding {
   background-color: white;
   background: white;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 4px;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 400;
   padding: 10px 20px;
   position: relative;
-  padding-right: 150px;
-  margin-left: 515px;
-  margin-top: -350px;
+  margin-top: 10px;
 }
 
 .btn-branding:hover {
   border: 2px solid white;
   background-color: #1b5054;
   color: white;
+  transition: 1s;
 }
 
-@media (max-width: 576px;) {
+@media (max-width: 576px) {
   .main-logo {
     display: block;
-    margin: 0 20px;
+    margin: 0 auto;
   }
 
   h1 {
     font-size: 40px;
-    line-height: 1.5;
+    line-height: 1.3;
     text-align: center;
+    margin-top: -80px;
   }
 
   .btn-branding {
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
+    display: block;
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 577px) {
+  .main-logo {
+    margin-top: -50px;
+    padding-left: 50px;
   }
 }
