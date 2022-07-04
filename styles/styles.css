@@ -21,6 +21,14 @@ h2 a:hover {
   transition: 1s;
 }
 
+h3 {
+  color: #1b5054;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 100px;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
@@ -75,12 +83,37 @@ p {
 }
 
 .project-01 {
+  padding: 25px 15px 150px;
+}
+
+.project-01-images {
+  padding-top: 25px;
+}
+
+.project-02 {
+  padding: 25px 15px 150px;
+}
+
+.weather-app-description {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #707070;
-  padding-top: 20px;
+  padding-top: 5px;
   line-height: 1.3;
   font-size: 24px;
+}
+
+.mountain-bike-description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #707070;
+  padding-top: 5px;
+  line-height: 1.3;
+  font-size: 24px;
+}
+
+.mountain-bike-page-image {
+  align-content: center;
 }
 
 @media (max-width: 576px) {
