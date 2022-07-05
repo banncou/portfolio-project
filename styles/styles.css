@@ -29,6 +29,13 @@ h3 {
   padding-top: 50px;
 }
 
+h4 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
@@ -60,6 +67,7 @@ p {
 
 .projects-container {
   padding: 25px 15px;
+  margin-bottom: 40px;
 }
 
 .btn-branding {
@@ -110,6 +118,24 @@ p {
 .mountain-bike-description p {
   color: #707070;
   padding-top: 5px;
+  line-height: 1.3;
+  font-size: 24px;
+}
+
+.connect {
+  background: #1b5054;
+  padding: 15px 180px 90px;
+}
+
+.connect-title {
+  margin-top: 20px;
+}
+
+.connect-description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: white;
+
   line-height: 1.3;
   font-size: 24px;
 }
