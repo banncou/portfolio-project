@@ -1,15 +1,12 @@
 .nav-logo {
-  max-width: 150px;
-  float: left;
+  max-width: 110px;
+  padding-right: 40px;
+  padding-top: 25px;
 }
 
 header {
   background: #1b5054;
-  margin-bottom: 20px;
-}
-
-nav {
-  float: left;
+  padding-bottom: 20px;
 }
 
 nav ul {
@@ -21,7 +18,7 @@ nav ul {
 nav li {
   display: inline-block;
   margin-right: 50px;
-  padding-top: 45px;
+  padding-top: 50px;
   position: relative;
 }
 
@@ -99,6 +96,13 @@ p {
 .hero {
   background: #1b5054;
   padding: 20px 15px 25px;
+}
+
+.main-logo {
+  max-width: 450px;
+  padding-right: 100px;
+  padding-top: 40px;
+  margin-left: 100px;
 }
 
 .about {
@@ -199,6 +203,8 @@ p {
   .main-logo {
     display: block;
     margin: 0 auto;
+    padding-right: 0;
+    max-width: 300px;
   }
 
   h1 {
