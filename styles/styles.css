@@ -1,3 +1,13 @@
+.nav-logo {
+  max-width: 150px;
+  float: left;
+}
+
+header {
+  background: #1b5054;
+  margin-bottom: 20px;
+}
+
 h1 {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -124,7 +134,7 @@ p {
 
 .connect {
   background: #1b5054;
-  padding: 15px 180px 90px;
+  padding: 15px 15px 90px;
 }
 
 .connect-title {
@@ -219,5 +229,9 @@ p {
 
   .projects-container {
     padding: 50px 15px;
+  }
+
+  .connect {
+    padding: 15px 180px 90px;
   }
 }
