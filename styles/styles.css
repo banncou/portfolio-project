@@ -9,6 +9,10 @@ header {
   padding-bottom: 20px;
 }
 
+.navbar {
+  display: flex;
+}
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -30,7 +34,8 @@ nav a {
   font-weight: bold;
 }
 
-nav a:hover {
+nav a:hover,
+nav li.active a {
   color: #528181;
   transition: all ease-in 250ms;
 }
@@ -48,6 +53,17 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-line {
+  width: 50px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 8px;
 }
 
 h1 {
@@ -205,6 +221,40 @@ p {
     margin: 0 auto;
     padding-right: 0;
     max-width: 300px;
+  }
+
+  .navbar .nav-logo {
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    position: relative;
+    padding: 0;
+  }
+
+  .nav-list {
+    list-style-type: none;
+    width: 100%;
+    text-align: right;
+    padding-top: 15px;
+    display: none;
+    margin: 0;
+  }
+
+  nav a::before {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    right: 35px;
+    top: 35px;
+  }
+
+  .active {
+    display: block;
   }
 
   h1 {
