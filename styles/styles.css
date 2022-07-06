@@ -8,6 +8,51 @@ header {
   margin-bottom: 20px;
 }
 
+nav {
+  float: left;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 50px;
+  padding-top: 45px;
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #528181;
+  transition: all ease-in 250ms;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #528181;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
 h1 {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -28,7 +73,7 @@ h2 a {
 
 h2 a:hover {
   color: #1b5054;
-  transition: 1s;
+  transition: 1s ease-in-out;
 }
 
 h3 {
