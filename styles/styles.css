@@ -6,7 +6,12 @@
 
 header {
   background: #1b5054;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 .navbar {
@@ -114,10 +119,15 @@ p {
   padding: 20px 15px 25px;
 }
 
+#home {
+  padding-top: 305px;
+  padding-bottom: 190px;
+}
+
 .main-logo {
-  max-width: 450px;
+  max-width: 400px;
   padding-right: 100px;
-  padding-top: 40px;
+  padding-top: 35px;
   margin-left: 100px;
 }
 
@@ -221,6 +231,8 @@ p {
     margin: 0 auto;
     padding-right: 0;
     max-width: 300px;
+    margin-bottom: 50px;
+    margin-top: -170px;
   }
 
   .navbar .nav-logo {
