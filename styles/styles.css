@@ -1,5 +1,6 @@
 .nav-logo {
   max-width: 110px;
+  width: 100%;
   padding-right: 40px;
   padding-top: 25px;
 }
@@ -25,7 +26,6 @@ nav ul {
 }
 
 nav li {
-  display: inline-block;
   margin-right: 50px;
   padding-top: 50px;
   position: relative;
@@ -245,6 +245,10 @@ p {
     padding: 0;
   }
 
+  .nav-logo {
+    margin-left: 20px;
+  }
+
   .nav-list {
     list-style-type: none;
     width: 100%;
@@ -260,9 +264,8 @@ p {
 
   .menu {
     display: block;
-    position: absolute;
-    right: 35px;
-    top: 35px;
+    margin-right: 30px;
+    margin-top: 40px;
   }
 
   .active {
@@ -320,8 +323,11 @@ p {
 
 @media (min-width: 577px) {
   .main-logo {
-    margin-top: -50px;
-    padding-left: 50px;
+    margin-left: 0px;
+  }
+
+  nav li {
+    display: inline-block;
   }
 
   .hero {
@@ -346,5 +352,12 @@ p {
 
   .connect {
     padding: 15px 180px 90px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-logo {
+    margin-top: -50px;
+    padding-left: 50px;
   }
 }
