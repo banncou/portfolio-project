@@ -227,14 +227,15 @@ p {
 .social-icon {
   width: 35px;
   height: 35px;
-  margin-right: 10px;
+  margin-right: 5px;
   margin-top: 160px;
 }
 
 footer p {
-  margin-top: 165px;
+  margin-top: 169px;
   color: white;
   justify-content: right;
+  font-size: 12px;
 }
 
 @media (max-width: 576px) {
