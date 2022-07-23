@@ -114,6 +114,11 @@ p {
   font-weight: normal;
 }
 
+footer {
+  background: #1b5054;
+  padding: 15px 15px;
+}
+
 .hero {
   background: #1b5054;
   padding: 20px 15px 25px;
@@ -208,7 +213,7 @@ p {
 
 .connect {
   background: #1b5054;
-  padding: 15px 15px 90px;
+  padding: 15px 15px;
 }
 
 .connect-title {
@@ -227,15 +232,18 @@ p {
 .social-icon {
   width: 35px;
   height: 35px;
-  margin-right: 5px;
-  margin-top: 160px;
+}
+
+.social-icon-row {
+  margin-left: -15px;
+  margin-top: 25px;
 }
 
 footer p {
-  margin-top: 169px;
   color: white;
   justify-content: right;
   font-size: 12px;
+  margin-top: 45px;
 }
 
 @media (max-width: 576px) {
@@ -364,7 +372,7 @@ footer p {
   }
 
   .connect {
-    padding: 15px 180px 90px;
+    padding: 15px 180px;
   }
 }
 
