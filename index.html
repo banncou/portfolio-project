@@ -33,6 +33,10 @@
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Courtney is a graphic designer currently based in Ontario, Canada"
+    />
     <title>Courtney Bannon - Portfolio</title>
   </head>
   <body>
@@ -40,11 +44,13 @@
       <div class="container">
         <div class="d-flex flex-column flex-sm-row">
           <div class="d-flex justify-content-between align-items-center">
-            <img
-              src="images/Courtney_Bannon_Logo_White.svg"
-              alt="Courtney Bannon Tree Logo"
-              class="nav-logo"
-            />
+            <a href="#home">
+              <img
+                src="images/Courtney_Bannon_Logo_White.svg"
+                alt="Courtney Bannon Tree Logo"
+                class="nav-logo"
+              />
+            </a>
             <div class="menu" id="toggle-button">
               <div class="menu-line"></div>
               <div class="menu-line"></div>
@@ -53,10 +59,10 @@
           </div>
           <nav class="navbar">
             <ul class="nav-list" id="navi-list">
-              <li class="active"><a href="#home">HOME</a></li>
-              <li><a href="#about">ABOUT</a></li>
-              <li><a href="#portfolio">PORTFOLIO</a></li>
-              <li><a href="#connect">CONNECT</a></li>
+              <li><a href="#home" title="Homepage">HOME</a></li>
+              <li><a href="#about" title="About">ABOUT</a></li>
+              <li><a href="#portfolio" title="Portfolio">PORTFOLIO</a></li>
+              <li><a href="#connect" title="Connect">CONNECT</a></li>
             </ul>
           </nav>
         </div>
@@ -72,7 +78,12 @@
             Graphic Designer based in Ontario, where the rent's high & my humour
             remains dry.
           </h1>
-          <a href="#" class="btn btn-branding">Contact me</a>
+          <a
+            href="mailto:banncou@gmail.com"
+            target="_blank"
+            class="btn btn-branding"
+            >Contact me</a
+          >
         </div>
       </div>
     </div>
@@ -156,6 +167,7 @@
                   src="images/email-icon.svg"
                   alt="email icon"
                   class="social-icon"
+                  id="icon"
               /></a>
               <a
                 href="https://www.instagram.com/woodlands_creative"

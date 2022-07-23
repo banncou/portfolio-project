@@ -35,6 +35,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project 01 - Live Weather App</title>
   </head>
+  <header>
+    <div class="container">
+      <div class="d-flex flex-column flex-sm-row">
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="index.html">
+            <img
+              src="images/Courtney_Bannon_Logo_White.svg"
+              alt="Courtney Bannon Tree Logo"
+              class="nav-logo"
+            />
+          </a>
+          <div class="menu" id="toggle-button">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+          </div>
+        </div>
+        <nav class="navbar">
+          <ul class="nav-list" id="navi-list">
+            <li><a href="index.html" title="Homepage">HOME</a></li>
+            <li><a href="index.html #about" title="About">ABOUT</a></li>
+            <li>
+              <a href="index.html #portfolio" title="Portfolio">PORTFOLIO</a>
+            </li>
+            <li><a href="index.html #connect" title="Connect">CONNECT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
   <body>
     <div class="project-content">
       <div class="project-01-content">
@@ -63,12 +93,68 @@
         </div>
         <h3>Live Weather App</h3>
         <p class="weather-app-description col-sm-10">
-          A weather app coded from scratch to display live weather all around
-          the world. Created to have different main icons depending on the
-          weather situation, with three corresponding backgrounds. Created using
-          HTML, CSS, and JavaScript Mobile version coming soon.
+          A live weather app designed and coded from scratch to display live
+          weather all around the world. Created to have different main icons
+          depending on the weather situation, with three corresponding
+          backgrounds. Created using HTML, CSS, and JavaScript, as well as Adobe
+          Illustrator. <br /><strong>Mobile version coming soon.</strong>
         </p>
+        <a
+          href="https://eclectic-kashata-fdd054.netlify.app/"
+          target="_blank"
+          class="btn weather-app-btn"
+          >View Desktop Version</a
+        >
+      </div>
+    </div>
+    <div class="project-pages-footer">
+      <div class="d-flex justify-content-between">
+        <div class="project-page-social-icon-row">
+          <div>
+            <a href="mailto:banncou@gmail.com" target="_blank">
+              <img
+                src="images/email-icon.svg"
+                alt="email icon"
+                class="social-icon"
+            /></a>
+            <a
+              href="https://www.instagram.com/woodlands_creative"
+              target="_blank"
+            >
+              <img
+                src="images/instagram-icon.svg"
+                alt="instagram icon"
+                class="social-icon"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/courtney-b-b818257b/"
+              target="_blank"
+            >
+              <img
+                src="images/linkedin-icon.svg"
+                alt="linkedin icon"
+                class="social-icon"
+            /></a>
+            <a href="https://github.com/banncou" target="_blank">
+              <img
+                src="images/github-icon.svg"
+                alt="github icon"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+        <div class="open-source-code">
+          <p>Open Source Code by Courtney Bannon. 2022</p>
+        </div>
       </div>
     </div>
   </body>
+  <script>
+    const toggleButton = document.getElementById("toggle-button");
+    const naviList = document.getElementById("navi-list");
+
+    toggleButton.addEventListener("click", () => {
+      naviList.classList.toggle("active");
+    });
+  </script>
 </html>
